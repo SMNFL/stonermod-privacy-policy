@@ -7,7 +7,7 @@ Dieses Dokument beschreibt, welche Nutzerdaten im Rahmen der Verwendung des Bots
 ## 🔗 Vollständige Datenschutzerklärung
 
 Die vollständige Datenschutzerklärung findest du hier:  
-👉 [Hier klicken zur Privacy Policy](https://SMNFL.github.io/stonermod-privacy-policy/privacy_policy.html)
+👉 [Hier klicken zur Privacy Policy](https://SMNFL.github.io/stonermod-privacy-policy/)
 
 ---
 
