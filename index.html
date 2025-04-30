@@ -28,6 +28,10 @@
             color: #319795;
             margin-top: 30px;
         }
+        h3 {
+            color: #2c7a7b;
+            margin-top: 20px;
+        }
         p, li {
             line-height: 1.6;
         }
@@ -45,35 +49,32 @@
 <body>
 
     <div class="container">
-        <h1>📜 Datenschutzerklärung</h1>
+        <h1 style="word-break: break-word;">📜 Datenschutzerklärung</h1>
 
         <p>Dieser Bot 🤖<a href="https://t.me/StonerMOD_bot" target="_blank">StonerMOD Bot</a> ("SüdpfalzStoner Chilllounge Bot") wird ausschließlich für die private Telegram-Community 🌿<a href="https://t.me/SuedpfalzStonerChilllounge" target="_blank">SüdpfalzStonerChilllounge</a> betrieben.</p>
 
-        <h2>Erfasste Daten</h2>
+        <h2>📊 Übersicht der genutzten Systeme und erfassten Daten</h2>
         <ul>
-            <li>Telegram-Benutzer-ID sowie, sofern vorhanden, Benutzername, Vorname und Nachname.</li>
-            <li>Chat-Interaktionen:
-                <ul>
-                    <li>Levelsystem (gesammelte XP pro Nutzer)</li>
-                    <li>Casinosystem (Coins pro Nutzer)</li>
-                    <li>Rollenverwaltung (vergebene Rolle pro Nutzer)</li>
-                    <li>Warnsystem (Verwarnungen inkl. Grund pro Nutzer)</li>
-                    <li>Report-System (letzte 100 Nachrichten bei Reports)</li>
-                    <li>Support-System (Bearbeitung von Anfragen)</li>
-                </ul>
-            </li>
+            <li><strong>Levelsystem:</strong> Verfolgt die gesammelten Erfahrungspunkte (XP) jedes Nutzers. Dabei werden Telegram-ID und (sofern vorhanden) Username und Vor-/Nachname zur Nutzerzuordnung gespeichert.</li>
+            <li><strong>Casinosystem:</strong> Verwalten von virtuellen Coins für Casino-Spiele. Dabei wird die Telegram-ID zur Nutzerzuordnung gespeichert.</li>
+            <li><strong>Rollenverwaltung:</strong> Zuweisung und Verwaltung von Nutzerrollen innerhalb der Community. Dabei werden Telegram-ID und (sofern vorhanden) Username und Vor-/Nachname zur Nutzerzuordnung gespeichert.</li>
+            <li><strong>Warnsystem:</strong> Speichert Verwarnungen inklusive der jeweiligen Gründe + Zeit pro Nutzer. Dabei wird nur die Telegram-ID verwendet.</li>
+            <li><strong>Report-System:</strong> Temporäre Speicherung der letzten 100 Nachrichten inklusive Telegram-ID (sofern vorhanden auch Username) zur Bearbeitung von Meldungen.</li>
+            <li><strong>Support-System:</strong> Verwaltung und Bearbeitung von Support-Anfragen der Nutzer, inklusive Telegram-ID und (sofern vorhanden) Username und Vor-/Nachname.</li>
+            <li><strong>Gewinnspiel-System:</strong> Erfasst Teilnehmerdaten (Telegram-ID, (sofern vorhanden) Username und Vor-/Nachname) zur Durchführung von Gewinnspielen.</li>
+            <li><strong>Verifizierungssystem:</strong> Nutzt Telegram-ID (sofern vorhanden) Username und Vor-/Nachname zur Identifikation und Freigabe von Mitgliedern.</li>
         </ul>
 
         <h2>Verwendung der Daten</h2>
         <p>Die Daten werden ausschließlich zur Verwaltung gruppenspezifischer Funktionen innerhalb der SüdpfalzStoner Chilllounge verwendet.</p>
 
         <h2>Speicherung</h2>
-        <p>Alle Daten werden lokal und/oder verschlüsselt gespeichert.</p>
+        <p>Alle Daten werden lokal auf dem Server gespeichert und/oder verschlüsselt verarbeitet. RedisServer wird ausschließlich lokal verwendet und enthält nur temporäre Daten (z. B. letzte 100 Nachrichten zur Bearbeitung von Meldungen), die automatisch überschrieben und nicht dauerhaft archiviert werden.</p>
 
         <h2>Weitergabe</h2>
         <ul>
             <li>Keine Weitergabe oder Verkauf der Daten an Dritte.</li>
-            <li>Nachrichtencaches werden nach Bearbeitung gelöscht.</li>
+            <li>Nachrichtencaches (z. B. bei Reports oder Support) werden nur zur Bearbeitung verwendet und danach gelöscht.</li>
             <li>Private Nachrichten, Bilder oder Gruppeninhalte werden nicht dauerhaft gespeichert oder weitergegeben.</li>
         </ul>
 
@@ -81,6 +82,7 @@
         <ul>
             <li>Keine privaten Chatverläufe.</li>
             <li>Keine Telefonnummern, E-Mail-Adressen oder Standortdaten.</li>
+            <li>Keine Inhalte privater Telegram-Chats oder Nachrichten außerhalb der Gruppe.</li>
         </ul>
 
         <h2>Zustimmung</h2>
